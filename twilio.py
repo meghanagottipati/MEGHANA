@@ -40,7 +40,7 @@ def send_successful_sign_in_sms():
     message = client.messages.create(
         body="Sign-in successful for MEGHANA.",
         from_="+17722131843",  # Your Twilio phone number
-        to="+9175693 21505",  # Your phone number
+        to="+91xxxxxxxxxx",  # Your phone number
     )
 
     # Print confirmation
